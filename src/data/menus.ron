@@ -1,0 +1,53 @@
+[
+    SavedMenu(
+        name: "Baked Potato Soup with Bacon",
+        ingredients: [
+            SavedMenuIngredient(ingredient: "Potatoes", amount: 6, unit: Oz),
+            SavedMenuIngredient(ingredient: "Bacon", amount: 2.0, unit: Oz),
+            SavedMenuIngredient(ingredient: "Scallions", amount: 1.0, unit: Piece),
+            SavedMenuIngredient(ingredient: "Garlic Powder", amount: 0.5, unit: Tsp),
+            SavedMenuIngredient(ingredient: "Cream Sauce Base", amount: 2.0, unit: Oz),
+            SavedMenuIngredient(ingredient: "Chicken Stock Concentrate", amount: 1.0, unit: FlOz),
+            SavedMenuIngredient(ingredient: "Cornstarch", amount: 0.5, unit: Tbsp),
+            SavedMenuIngredient(ingredient: "White Cheddar Cheese", amount: 0.25, unit: Cup),
+            SavedMenuIngredient(ingredient: "Mexican Cheese Blend", amount: 0.25, unit: Cup),
+            SavedMenuIngredient(ingredient: "Sour Cream", amount: 0.75, unit: Tbsp),
+            SavedMenuIngredient(ingredient: "Hot Sauce", amount: 0.5, unit: Tsp),
+            SavedMenuIngredient(ingredient: "Butter", amount: 0.5, unit: Tbsp),
+        ],
+        steps: [
+            Step(description: "Dice potatoes into 1/2 inch cubes."),
+            Step(description: "Cut scallions, separating the whites and greens."),
+            Step(description: "Combine potatoes, half the garlic powder, and salt/pepper in a microwave-safe bowl, microwave for 6-7 minutes"),
+            Step(description: "Cook bacon and reserve 0.5 tbsp/person of bacon fat. I like to cut up the bacon with a pair of scissors before cooking. I also like to save all the bacon fat, and use less butter."),
+            Step(description: "In a pot, melt 0.5 tbsp/person butter with the bacon fat, and cook the scallion whites with remaining garlic powder for up to a minute, then add the cream sauce base, stock concentrate, and 1 cup of water/person."),
+            Step(description: "In a separate bowl, mix cornstarch with 0.25 tbsp/person of water, then add to the pot, along with potatoes"),
+            Step(description: "Reduce heat, add cheddar and bacon"),
+            Step(description: "Serve with cheese, scallion greens, sour cream, and hot sauce"),
+        ],
+    ),
+    SavedMenu(
+        name: "Bacon Jalapeno Mac and Cheese",
+        ingredients: [
+            SavedMenuIngredient(ingredient: "Bacon", amount: 2.0, unit: Oz),
+            SavedMenuIngredient(ingredient: "Jalapeno", amount: .5, unit: Piece),
+            SavedMenuIngredient(ingredient: "Scallion", amount: 1.0, unit: Piece),
+            SavedMenuIngredient(ingredient: "Garlic Clove", amount: 0.5, unit: Piece),
+            SavedMenuIngredient(ingredient: "Cavatappi Pasta", amount: 3.0, unit: Oz),
+            SavedMenuIngredient(ingredient: "Panko Breadcrumbs", amount: 0.125, unit: Cup),
+            SavedMenuIngredient(ingredient: "Southwest Spice Blend", amount: 0.5, unit: Tbsp),
+            SavedMenuIngredient(ingredient: "Flour", amount: 0.5, unit: Tbsp),
+            SavedMenuIngredient(ingredient: "Cream Sauce Base", amount: 2.0, unit: Oz),
+            SavedMenuIngredient(ingredient: "Cream Cheese", amount: 1.0, unit: Tbsp),
+            SavedMenuIngredient(ingredient: "Mexican Cheese Blend", amount: 0.5, unit: Cup),
+            SavedMenuIngredient(ingredient: "Monterey Jack Cheese", amount: 0.125, unit: Cup),
+            SavedMenuIngredient(ingredient: "Butter", amount: 0.5, unit: Tbsp),
+        ],
+        steps: [
+            Step(description: "Cut bacon with scissors and cook until *almost* done"),
+            Step(description: "Cook pasta"),
+            Step(description: "Cut jalapeno and scallion, mince garlic"),
+            Step(description: "Once bacon is almost done, add jalapeno, scallion whites, garlic, and salt/pepper, and cook for 1-2 minutes"),
+        ],
+    )
+]
